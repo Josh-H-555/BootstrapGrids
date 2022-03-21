@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
     <head>
-        <title>Bootstrap Grids: Grid 4</title>
+        <title>Bootstrap Grids: Grid 3</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Grid1.html">Grid 1</a>
@@ -36,10 +36,10 @@
                             <a class="nav-link" href="Grid2.html">Grid 2</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Grid3.html">Grid 3</a>
+                            <a class="nav-link active" href="Grid3.html" aria-current="page">Grid 3</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Grid4.html" aria-current="page">Grid 4</a>
+                            <a class="nav-link" href="Grid4.html">Grid 4</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Grid5.html">Grid 5</a>
@@ -63,15 +63,44 @@
 
         <main class="flex-shrink-0">
             <div class="container h-100 minHeight">
-                <div class="row h-100 row-cols-1 row-cols-md-3 gy-1">
-                    <div class="col">
-                        <div class="bg-secondary text-light h-100">Col One</div>
+                <ul class="nav nav-pills mb-1">
+                    <li class="nav-item">
+                        <a href="Grid3.html" class="nav-link">Grid 3</a>
+                    </li>
+                    <li>
+                        <a href="Grid3B.html" class="nav-link active" aria-current="page">Grid 3B</a>
+                    </li>
+                </ul>
+                <div class="row h-100">
+                    <div class="col-7">
+                        <div class="bg-secondary text-light h-100">
+                            <h1>Article title</h1>
+                            <p>Lorem ipsum dolor sit amet. Id architecto minima vel nihil illo et sint earum? Ut dicta
+                                rerum eos adipisci fugit eum quaerat voluptatum ex dolorem eaque quo voluptatem
+                                perferendis ut quasi nisi vel repudiandae consequatur! </p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <div class="bg-dark text-light h-100">Col Two</div>
-                    </div>
-                    <div class="col">
-                        <div class="bg-secondary text-light h-100">Col Three</div>
+                    <div class="col-5">
+                        <div class="bg-secondary text-light p-2">
+                            <form action="" class="d-flex">
+                                <input type="search" class="form-control me-2" placeholder="Search" aria-label="search">
+                                <button class="btn btn-outline-light" type="submit">Search</button>
+                            </form>
+                        </div>
+                        <div class="bg-dark text-light mt-2 p-2">
+                            <h5>More Articles</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Article 1</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Article 2</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Article 3</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

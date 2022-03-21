@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Grid1.html">Grid 1</a>
@@ -62,8 +62,40 @@
         </nav>
 
         <main class="flex-shrink-0">
-            <div class="container">
-
+            <div class="container h-100 minHeight">
+                <ul class="nav nav-pills mb-1">
+                    <li class="nav-item">
+                        <a href="Grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
+                    </li>
+                    <li>
+                        <a href="Grid3B.html" class="nav-link">Grid 3B</a>
+                    </li>
+                </ul>
+                <div class="row h-100">
+                    <div class="col-7">
+                        <div class="bg-secondary text-light h-100">
+                            <h1>Article title</h1>
+                            <p>Lorem ipsum dolor sit amet. Id architecto minima vel nihil illo et sint earum? Ut dicta
+                                rerum eos adipisci fugit eum quaerat voluptatum ex dolorem eaque quo voluptatem
+                                perferendis ut quasi nisi vel repudiandae consequatur! </p>
+                        </div>
+                    </div>
+                    <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+                        <div class="bg-dark text-light h-50 p-2">
+                            <p>Lorem ipsum dolor sit amet. Id architecto minima vel nihil illo et sint earum? Ut dicta
+                                rerum eos adipisci fugit eum quaerat voluptatum ex dolorem eaque quo voluptatem
+                                perferendis ut quasi nisi vel repudiandae consequatur! </p>
+                        </div>
+                        <div class="bg-dark text-light h-50 mt-2 p-2 overflow-auto">
+                            <p>Lorem ipsum dolor sit amet. Id architecto minima vel nihil illo et sint earum? Ut dicta
+                                rerum eos adipisci fugit eum quaerat voluptatum ex dolorem eaque quo voluptatem
+                                perferendis ut quasi nisi vel repudiandae consequatur! </p>
+                        </div>
+                        <div class="bg-dark text-light border border-top p-2">
+                            <button class="btn btn-light" type="button">Read Me</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="footer mt-auto py-3 bg-dark sticky-footer">
